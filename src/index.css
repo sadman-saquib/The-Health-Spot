@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    *{
+        font-family: 'Helvetica Neue\\', sans-serif;
+        @apply leading-loose tracking-normal
+    }
+
+    body{
+        overscroll-behavior: none;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
